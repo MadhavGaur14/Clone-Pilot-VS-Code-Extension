@@ -1,0 +1,23 @@
+{
+    "name": "codeSolver",
+    "displayName": "Code Solver",
+    "description": "Solves coding problems using the Gemini API.",
+    "version": "0.1.0",
+    "engines": {
+      "vscode": "^1.62.0"
+    },
+    "activationEvents": [
+      "onCommand:codeSolver.solveProblem"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "codeSolver.solveProblem",
+          "title": "Solve Code Problem"
+        }
+      ]
+    },
+    "dependencies": {}
+  }
+  
